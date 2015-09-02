@@ -1,15 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
-
-"""
-A module/script to simulate a basic ATM.
-Author: John Doe III., johndoethird@megacorp.com
-Notes: Script works only for one user, one pin, but modules can 
-be used for other cases
-"""
-
 def authenticated_pin(user_pin, entered_pin, username="Valuable Customer"):
     """Returns whether the enter pin is correct. We are ignoring the username for now"""
     if user_pin == entered_pin:
